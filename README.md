@@ -67,7 +67,7 @@ Ensure you have Node.js and npm installed.
 
 
 ### Mobile View
-![Mobile View](screenshot/mobileview.png)
+![Mobile View](Screenshot/mobileview.png)
 
 ## Contributing
 Feel free to fork this project and submit pull requests with improvements!
