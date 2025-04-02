@@ -25,8 +25,8 @@ Ensure you have Node.js and npm installed.
 ### Steps to Run Locally
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/social-media-analytics.git
-   cd social-media-analytics
+   git clone https://github.com/your-repo/2229132.git
+   cd 2229132
    ```
 2. Install dependencies:
    ```sh
