@@ -63,10 +63,11 @@ Ensure you have Node.js and npm installed.
 
 ## Screenshots
 ### Web View
-(Add screenshots of the web interface here)
+![](screenshots/webview.png)
+
 
 ### Mobile View
-(Add screenshots of the mobile interface here)
+![](screenshots/mobileview.png)
 
 ## Contributing
 Feel free to fork this project and submit pull requests with improvements!
