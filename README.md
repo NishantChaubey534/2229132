@@ -63,11 +63,11 @@ Ensure you have Node.js and npm installed.
 
 ## Screenshots
 ### Web View
-![](screenshots/webview.png)
+![](screenshot/webview.png)
 
 
 ### Mobile View
-![](screenshots/mobileview.png)
+![](screenshot/mobileview.png)
 
 ## Contributing
 Feel free to fork this project and submit pull requests with improvements!
