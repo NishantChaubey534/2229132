@@ -57,8 +57,8 @@ AdvancedImageResizerWinForms/
 ---
 
 ## 📸 Screenshots
-![Main Window](screenshot1.png)
-![Main Window](screenshot2.png)
+![Main Window](Screenshot1.png)
+![Main Window](Screenshot2.png)
 ---
 
 ## ✅ Future Enhancements
