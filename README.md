@@ -1,77 +1,82 @@
-# Social Media Analytics Frontend Web Application
 
-## Overview
-This is a React-based Social Media Analytics application that displays:
-- **Top Users:** Users with the most posts.
-- **Trending Posts:** Posts with the highest number of comments.
-- **Real-Time Feed:** The newest posts appear first.
+# 🖼️ Advanced Image Resizer (WinForms)
 
-## Features
-- **Responsive Design:** Works on both web and mobile.
-- **Optimized API Calls:** Minimizes requests for better performance.
-- **Dynamic Sorting:** Updates the order of users and posts based on real-time data.
+A simple but powerful Windows Forms application built with C# (.NET) that allows users to **load**, **resize**, and **save** images in multiple formats (PNG, JPEG, BMP). It also keeps a history of saved images and supports drag-and-drop image loading.
 
-## Tech Stack
-- **Frontend:** React.js, Tailwind CSS
-- **Routing:** React Router
-- **State Management:** useState, useEffect
-- **API Handling:** Axios
+---
 
-## Installation
+## 🚀 Features
 
-### Prerequisites
-Ensure you have Node.js and npm installed.
+- 📂 Load images from file or drag-and-drop
+- 📏 Resize by width/height or percentage
+- 🔒 Lock aspect ratio option
+- 💾 Save as PNG, JPEG, or BMP
+- 🧠 Intelligent resizing with high-quality interpolation
+- 🕘 Resize history tracking
 
-### Steps to Run Locally
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-repo/2229132.git
-   cd 2229132
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Start the development server:
-   ```sh
-   npm run dev
-   ```
-4. Open `http://localhost:3000` in your browser.
+---
 
-## Folder Structure
-```
-/social-media-analytics
-│── src
-│   ├── components
-│   │   ├── Navbar.jsx
-│   ├── pages
-│   │   ├── Feed.jsx
-│   │   ├── TopUsers.jsx
-│   │   ├── TrendingPosts.jsx
-│   ├── api.js
-│   ├── App.jsx
-│   ├── main.jsx
-│── public
-│── package.json
-│── tailwind.config.js
-```
+## 🖥️ UI Overview
 
-## API Endpoints Used
-- **Fetch Users:** `GET /users`
-- **Fetch User Posts:** `GET /users/:userId/posts`
-- **Fetch Comments:** `GET /posts/:postId/comments`
+| UI Element        | Description                              |
+|-------------------|------------------------------------------|
+| 📂 Load Image     | Opens file dialog to load image          |
+| Width / Height    | Manual input for target size             |
+| % (Percent)       | Resize image by scale percentage         |
+| 🔒 Aspect Lock     | Maintains original image proportions     |
+| Format Dropdown   | Select PNG / JPEG / BMP for saving       |
+| 💾 Resize & Save  | Resizes image and saves to selected path |
+| History List      | Displays all saved images in session     |
 
-## Screenshots
-### Web View
-![Web View](Screenshot/webview.png)
+---
 
+## 📦 Project Structure
 
-### Mobile View
-![Mobile View](Screenshot/mobileview.png)
+AdvancedImageResizerWinForms/
+│
+├── Program.cs # Entry point of the application
+├── MainForm.cs # Main UI and logic implementation
+├── AdvancedImageResizerWinForms.csproj
+└── README.md # You're reading it!
 
-## Contributing
-Feel free to fork this project and submit pull requests with improvements!
+## 🛠️ Requirements
 
-## License
-This project is licensed under the MIT License.
+- ✅ .NET 6.0 or later
+- ✅ Windows OS (WinForms is Windows-only)
+- ✅ Visual Studio 2022+ or JetBrains Rider
 
+---
+
+## ⚙️ How to Run
+
+1. **Clone the repo** or download the source.
+2. **Open the project in Visual Studio.**
+3. Set `AdvancedImageResizerWinForms` as the **Startup Project**.
+4. Click **Run (▶️)** or press `F5`.
+
+---
+
+## 📸 Screenshots
+![Main Window](screenshot1.png)
+![Main Window](screenshot2.png)
+---
+
+## ✅ Future Enhancements
+
+- [ ] Image preview before saving
+- [ ] Resize multiple images (batch)
+- [ ] Custom output directory
+- [ ] Dark mode theme toggle
+
+---
+
+## 🧑‍💻 Author
+
+**Nishant Chaubey**  
+📧 [chaubeynishant2@gmail.com or (https://github.com/NishantChaubey534)]
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
